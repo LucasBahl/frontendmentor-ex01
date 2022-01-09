@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background-image: radial-gradient(circle at 14.79% -0.28%, #e55fe6 0, #cd55e9 16.67%, #b04cec 33.33%, #8d45ee 50%, #5d41f0 66.67%, #003ff2 83.33%, #0040f4 100%);
+    background-image: linear-gradient(190deg, #d986ff 0, #c377f6 25%, #ab67eb 50%, #9258e1 75%, #784bd7 100%);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
     img {
         position: absolute;
         width: 55%;
-        left: 24%;
+        left: 20%;
     }
     h1 {
         text-align: center;
