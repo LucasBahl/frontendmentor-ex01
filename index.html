@@ -8,60 +8,57 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0b3e0aced.js" crossorigin="anonymous"></script>
 
     <title>Frontend Mentor | FAQ Accordion Card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
+
 </head>
 
 <body>
-    <div class="contenedor">
-        <img src="./images/illustration-woman-online-mobile.svg" alt="Imagen Mujer">
+    <img src="./images/illustration-woman-online-mobile.svg" alt="Imagen Mujer">
+    <div class="container">
         <h1>FAQ</h1>
-        <div class="faq__question1">
-            <h2>How many team members can I invite?</h2>
-        </div>
-        <div class="faq__answer1">
-            <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
-        </div>
-        <div class="faq__question2">
+        <div class="container__dropdown">
+            <h2>How many team members can I invite?</h2><i class="fas fa-angle-down"></i>
+            <ul>
+                <li>
+                    <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+                </li>
+            </ul>
+            <div class="line"></div>
             <h2>What is the maximum file upload size?</h2>
-        </div>
-        <div class="faq__answer2">
-            <p> No more than 2GB. All files in your account must fit your allotted storage space. </p>
-        </div>
-        <div class="faq__question3">
+            <ul>
+                <li>
+                    <p> No more than 2GB. All files in your account must fit your allotted storage space. </p>
+                </li>
+            </ul>
+            <div class="line"></div>
             <h2>How do I reset my password?</h2>
-        </div>
-        <div class="faq__answer3">
-            <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
-        </div>
-        <div class="faq__question4">
+            <ul>
+                <li>
+                    <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+                </li>
+            </ul>
+            <div class="line"></div>
             <h2>Can I cancel my subscription?</h2>
-        </div>
-        <div class="faq__answer4">
-            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-        </div>
-        <div class="faq__question5">
+            <ul>
+                <li>
+                    <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+                </li>
+            </ul>
+            <div class="line"></div>
             <h2>Do you provide additional support?</h2>
+            <ul>
+                <li>
+                    <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+                </li>
+            </ul>
+            <div class="line"></div>
         </div>
-        <div class="faq_answer5">
-            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-        </div>
-    </div>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Lucas Bahl</a>.
-    </div>
 </body>
 
 </html>
